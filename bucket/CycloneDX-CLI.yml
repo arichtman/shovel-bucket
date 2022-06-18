@@ -1,5 +1,5 @@
-version: 0.24.0
-description: CycloneDX. CLI tool for SBOM analysis, merging, diffs and format conversions.
+version: "0.24.0"
+description: "CycloneDX. CLI tool for SBOM analysis, merging, diffs and format conversions."
 homepage: https://cyclonedx.org/
 license:
   identifier: Apache-2.0
