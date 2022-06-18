@@ -1,5 +1,5 @@
 version: "0.6"
-description: An open-source cross-platform GUI and a QMK fork for configuring your keyboard in real time.
+description: "An open-source cross-platform GUI and a QMK fork for configuring your keyboard in real time."
 homepage: https://get.vial.today/
 license:
   identifier: GPL-2.0-only

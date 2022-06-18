@@ -1,5 +1,5 @@
-version: 0.7.1
-description: gron. Make JSON greppable!
+version: "0.7.1"
+description: "gron. Make JSON greppable!"
 homepage: https://github.com/tomnomnom/gron
 license:
   identifier: MIT
