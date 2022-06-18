@@ -10,8 +10,8 @@ architecture:
     url: https://github.com/brimdata/zed/releases/download/v1.1.0/zed-v1.1.0.windows-amd64.zip
     hash: 0a25db182da37498d67f9f19832b6aa14240e7713734aa59b79dcc67446bb8e8
 bin:
-  - zed.exe
-  - zq.exe
+- zed.exe
+- zq.exe
 checkver:
   github: https://github.com/brimdata/zed
 autoupdate:
