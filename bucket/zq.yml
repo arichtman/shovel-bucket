@@ -18,4 +18,4 @@ autoupdate:
   changelog: https://github.com/brimdata/zed/releases/tag/v$version
   architecture:
     64bit:
-      url: https://github.com/brimdata/zed/download/v$version/zed-v$version.windows-amd64.zip
+      url: https://github.com/brimdata/zed/releases/download/v$version/zed-v$version.windows-amd64.zip
