@@ -1,7 +1,7 @@
 on:
   schedule:
   - cron: '0 0 * * *'
-name: Excavator
+name: Updates
 jobs:
   excavate:
     name: Excavator
@@ -14,3 +14,16 @@ jobs:
         GITH_EMAIL: ariel+github@richtman.com.au
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+  update:
+    name: ♻ Update manifests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: foosel/scoop-checkver-action@main
+        with:
+          bucket: bucket
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: "Updated manifests..."
+          author_name: 'github-actions[bot]'
+          author_email: 'github-actions[bot]@users.noreply.github.com'
