@@ -1,0 +1,20 @@
+version: "2.6"
+description: "ATTiny usb bootloader with a strong emphasis on bootloader compactness."
+homepage: https://github.com/micronucleus/micronucleus
+license:
+  identifier: GPL-2.0-only
+  url: https://github.com/micronucleus/micronucleus/blob/master/License.txt
+architecture:
+  64bit:
+    url: https://github.com/micronucleus/micronucleus/releases/download/v2.6/micronucleus-cli-master-882e7b4a-x86_64-MINGW64_NT-10.0-17763.zip
+    hash: 96dbf48e786dac7236516347e06beb8c36c754443afdcba782084f203a7b67d8
+    extract_dir: micronucleus-cli-master-882e7b4a
+bin: micronucleus.exe
+checkver:
+  github: https://github.com/micronucleus/micronucleus
+autoupdate:
+  changelog: https://github.com/micronucleus/micronucleus/releases/tag/v$version
+  # architecture:
+  #   64bit:
+  #     url: https://github.com/micronucleus/micronucleus/releases/download/v$version/micronucleus-cli-master-*-x86_64-MINGW64_NT-10.0-17763.zip
+
