@@ -14,7 +14,6 @@ checkver:
   github: https://github.com/micronucleus/micronucleus
 autoupdate:
   changelog: https://github.com/micronucleus/micronucleus/releases/tag/v$version
-  # architecture:
-  #   64bit:
-  #     url: https://github.com/micronucleus/micronucleus/releases/download/v$version/micronucleus-cli-master-*-x86_64-MINGW64_NT-10.0-17763.zip
-
+  architecture:
+    64bit:
+      url: https://github.com/micronucleus/micronucleus/releases/download/v$version/micronucleus-cli-master-*-x86_64-MINGW64_NT-10.0-17763.zip
