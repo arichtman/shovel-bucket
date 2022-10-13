@@ -1,4 +1,4 @@
-version: 0.24.1
+version: 0.24.2
 description: CycloneDX. CLI tool for SBOM analysis, merging, diffs and format conversions.
 homepage: https://cyclonedx.org/
 license:
@@ -6,8 +6,8 @@ license:
   url: https://github.com/CycloneDX/cyclonedx-cli/blob/main/LICENSE
 architecture:
   64bit:
-    url: https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.24.1/cyclonedx-win-x64.exe
-    hash: 3e3ae096756fc99d99324ac678493d60d280cdfa3c49abbe50e5f9a2a8fe8ab9
+    url: https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.24.2/cyclonedx-win-x64.exe
+    hash: c7c74dd5ea92f3fe3dda1cfcbf11e5cfa051836086f599ea90ac26d6737ee6ee
 bin:
 - - cyclonedx-win-x64.exe
   - cyclonedx
