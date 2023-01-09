@@ -1,13 +1,13 @@
-version: "7.0-windows"
-description: "AVRDUDE for Windows"
+version: "7.1"
+description: AVRDUDE for Windows
 homepage: https://avrdudes.github.io/avrdude/
 license:
   identifier: GPL-2.0-only
   url: https://github.com/mariusgreuel/avrdude/blob/windows-v7.0/COPYING
 architecture:
   64bit:
-    url: https://github.com/mariusgreuel/avrdude/releases/download/v7.0-windows/avrdude-v7.0-windows-windows-x64.zip
-    hash: 03cd88191390dc903131a0fc67e4ccca1c25c79a26c1a605fb9394463fee879b
+    url: https://github.com/mariusgreuel/avrdude/releases/download/v7.1/avrdude-v7.1-windows-x64.zip
+    hash: 4aa6ba9b9d9230a40691d9b4fa52e723aef7732c7b3032401174c16601132348
 bin: avrdude.exe
 checkver:
   github: https://github.com/mariusgreuel/avrdude
