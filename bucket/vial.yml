@@ -1,11 +1,11 @@
-version: "0.6"
-description: "An open-source cross-platform GUI and a QMK fork for configuring your keyboard in real time."
+version: "0.7"
+description: An open-source cross-platform GUI and a QMK fork for configuring your keyboard in real time.
 homepage: https://get.vial.today/
 license:
   identifier: GPL-2.0-only
   url: https://github.com/vial-kb/vial-gui/blob/main/COPYING
-url: https://github.com/vial-kb/vial-gui/releases/download/v0.6/Vial-v0.6-portable.zip
-hash: 51b6285d042964e6458b97d5efbdc1a89bb20fce679a9b3672bcde71e4fa926e
+url: https://github.com/vial-kb/vial-gui/releases/download/v0.7/Vial-v0.7-portable.zip
+hash: 474fba75edabcf82c1b13e979e0c7a65be4752ed87e5560df02152c5f18beb31
 extract_dir: Vial
 shortcuts:
 - - Vial.exe
