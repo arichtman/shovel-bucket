@@ -1,0 +1,15 @@
+version: 3.0.1
+description: This repository hosts the code and releases for Windows users. It replaces the original Wally repo.
+homepage: https://www.zsa.io/wally/
+license:
+  identifier: MIT
+  url: https://www.zsa.io/wally/
+url: https://github.com/zsa/wally-win/releases/download/3.0.1/Wally3.0.1.exe
+hash: daacfaf0f8db51afaed00f592119c6387d188762b3fe27640bcc825396546ab8
+shortcuts:
+- - Wally.exe
+  - Wally
+checkver:
+  github: https://github.com/zsa/wally-win
+autoupdate:
+  url: https://github.com/zsa/wally-win/releases/download/$version/Wally$version.exe
