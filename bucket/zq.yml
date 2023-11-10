@@ -1,4 +1,4 @@
-version: 1.10.0
+version: 1.11.0
 description: 'Tooling for super-structured data: a new and easier way to manipulate data'
 homepage: https://zed.brimdata.io/
 license:
@@ -6,8 +6,8 @@ license:
   url: https://github.com/brimdata/zed/blob/main/LICENSE.txt
 architecture:
   64bit:
-    url: https://github.com/brimdata/zed/releases/download/v1.10.0/zed-v1.10.0.windows-amd64.zip
-    hash: 1c1fe3e9607d10dca31b0f950e45d64c2da7808419b59da51502d4e106511e56
+    url: https://github.com/brimdata/zed/releases/download/v1.11.0/zed-v1.11.0.windows-amd64.zip
+    hash: 74c1253a6abf254c95a074dca575421850c36f7e800f4b9eb3a6502b371dfcdc
 bin:
 - zed.exe
 - zq.exe
